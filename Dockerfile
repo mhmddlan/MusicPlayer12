@@ -1,5 +1,4 @@
-FROM python:3.9-slim-buster
-
+FROM python:3.10-slim-bullseye
 # Updating Packages
 RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
